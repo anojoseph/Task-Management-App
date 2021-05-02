@@ -1,0 +1,101 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.box{
+  min-height: 500px;
+  width: 400px;
+  justify-content: center;
+  background-color: white;
+  filter: drop-shadow(3px 3px 7px rgb(82, 82, 82));
+  border-radius: 5px;
+  margin:40px auto;
+  align-self: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.heading{
+  text-align: center;
+  padding-top: 2px;
+}
+.task-list{
+  height: 50px;
+  width: 350px;
+  background-color: white;
+  filter: drop-shadow(2px 2px 4px rgb(112, 112, 112));
+  color: rgb(18, 170, 157);
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  border: 0;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+.task-name{
+  width:170px;
+}
+.add-task{
+  height: 50px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.inputtext{
+  width: 290px;
+  height: 38px;
+  
+}
+.save-button{
+  margin-bottom: 6px;
+}
+
+.done-button{
+  margin-left: 10px;
+}
+.footer {
+  text-align: center;
+  padding-top: 8px;
+  height: 40px;
+  background-color:rgba(52, 52, 53, 0.945);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+}
+.nav{
+  text-align: center;
+  margin-top: 0px;
+  background-color:	#34485f;
+  color: white;
+  left: 0;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+}
+.add-button{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: green 1px solid;
+  border-radius: 22px;
+  filter: drop-shadow(2px 2px 3px rgb(128, 128, 128));
+  background-color: white;
+  color: green;
+}
+.add-button:hover{
+  background-color:  rgb(79, 175, 79);
+  color: white;
+  border: white 1px solid;
+}
+
+.buttn{
+  border: 0px !important;
+  background-color: white !important;
+}
